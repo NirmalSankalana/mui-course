@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiSwitch } from "../src/components/MuiSwitch.tsx";
+// import { MuiSwitch } from "../src/components/MuiSwitch.tsx";
+import { MuiRating } from "../src/components/MuiRating.tsx";
 // import { MuiRadioButton } from "../src/components/MuiRadioButton.tsx";
 // import { MuiSelect } from "../src/components/MuiSelect.tsx";
 // import { MuiTypography } from "../src/components/MuiTypography.tsx";
@@ -10,7 +11,7 @@ import { MuiSwitch } from "../src/components/MuiSwitch.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiSwitch />
+      <MuiRating />
     </div>
   );
 }
