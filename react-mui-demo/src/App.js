@@ -1,6 +1,7 @@
 import "./App.css";
 // import { MuiSwitch } from "../src/components/MuiSwitch.tsx";
-import { MuiRating } from "../src/components/MuiRating.tsx";
+// import { MuiRating } from "../src/components/MuiRating.tsx";
+import { MuiAutocomplete } from "../src/components/MuiAutocomplete.tsx";
 // import { MuiRadioButton } from "../src/components/MuiRadioButton.tsx";
 // import { MuiSelect } from "../src/components/MuiSelect.tsx";
 // import { MuiTypography } from "../src/components/MuiTypography.tsx";
@@ -11,7 +12,7 @@ import { MuiRating } from "../src/components/MuiRating.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiRating />
+      <MuiAutocomplete />
     </div>
   );
 }
