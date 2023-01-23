@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiCard } from "./components/MuiCard.tsx";
+import { MuiAccordian } from "./components/MuiAccordian.tsx";
+// import { MuiCard } from "./components/MuiCard.tsx";
 // import { MuiLayout } from "./components/MuiLayout.tsx";
 // import { MuiSwitch } from "./components/MuiSwitch.tsx";
 // import { MuiRating } from "./components/MuiRating.tsx";
@@ -14,7 +15,7 @@ import { MuiCard } from "./components/MuiCard.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiCard />
+      <MuiAccordian />
     </div>
   );
 }
