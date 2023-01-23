@@ -1,19 +1,20 @@
 import "./App.css";
-import { MuiLayout } from "../src/components/MuiLayout.tsx";
-// import { MuiSwitch } from "../src/components/MuiSwitch.tsx";
-// import { MuiRating } from "../src/components/MuiRating.tsx";
-// import { MuiAutocomplete } from "../src/components/MuiAutocomplete.tsx";
-// import { MuiRadioButton } from "../src/components/MuiRadioButton.tsx";
-// import { MuiSelect } from "../src/components/MuiSelect.tsx";
-// import { MuiTypography } from "../src/components/MuiTypography.tsx";
-// import { MuiButton } from "../src/components/MuiButton.tsx";
-// import { MuiTextfield } from "../src/components/MuiTextfield.tsx";
-// import { MuiCheckbox } from "../src/components/MuiCheckbox.tsx";
+import { MuiCard } from "./components/MuiCard.tsx";
+// import { MuiLayout } from "./components/MuiLayout.tsx";
+// import { MuiSwitch } from "./components/MuiSwitch.tsx";
+// import { MuiRating } from "./components/MuiRating.tsx";
+// import { MuiAutocomplete } from ./components/MuiAutocomplete.tsx";
+// import { MuiRadioButton } from "./components/MuiRadioButton.tsx";
+// import { MuiSelect } from "./components/MuiSelect.tsx";
+// import { MuiTypography } from "./components/MuiTypography.tsx";
+// import { MuiButton } from "./components/MuiButton.tsx";
+// import { MuiTextfield } from "./components/MuiTextfield.tsx";
+// import { MuiCheckbox } from "./components/MuiCheckbox.tsx";
 
 function App() {
   return (
     <div className="App">
-      <MuiLayout />
+      <MuiCard />
     </div>
   );
 }
