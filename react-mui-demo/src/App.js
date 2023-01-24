@@ -1,5 +1,7 @@
 import "./App.css";
-import { MuiAccordian } from "./components/MuiAccordian.tsx";
+// import { MuiImageList } from "./components/MuiImageList.tsx";
+import { MuiNavbar } from "./components/MuiNavbar.tsx";
+// import { MuiAccordian } from "./components/MuiAccordian.tsx";
 // import { MuiCard } from "./components/MuiCard.tsx";
 // import { MuiLayout } from "./components/MuiLayout.tsx";
 // import { MuiSwitch } from "./components/MuiSwitch.tsx";
@@ -15,7 +17,7 @@ import { MuiAccordian } from "./components/MuiAccordian.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiAccordian />
+      <MuiNavbar />
     </div>
   );
 }
