@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiLink } from "./components/MuiLink.tsx";
+import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs.tsx";
+// import { MuiLink } from "./components/MuiLink.tsx";
 // import { MuiImageList } from "./components/MuiImageList.tsx";
 // import { MuiNavbar } from "./components/MuiNavbar.tsx";
 // import { MuiAccordian } from "./components/MuiAccordian.tsx";
@@ -18,7 +19,7 @@ import { MuiLink } from "./components/MuiLink.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiLink />
+      <MuiBreadcrumbs />
     </div>
   );
 }
