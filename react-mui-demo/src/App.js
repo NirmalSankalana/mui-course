@@ -1,6 +1,7 @@
 import "./App.css";
+import { MuiLink } from "./components/MuiLink.tsx";
 // import { MuiImageList } from "./components/MuiImageList.tsx";
-import { MuiNavbar } from "./components/MuiNavbar.tsx";
+// import { MuiNavbar } from "./components/MuiNavbar.tsx";
 // import { MuiAccordian } from "./components/MuiAccordian.tsx";
 // import { MuiCard } from "./components/MuiCard.tsx";
 // import { MuiLayout } from "./components/MuiLayout.tsx";
@@ -17,7 +18,7 @@ import { MuiNavbar } from "./components/MuiNavbar.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiNavbar />
+      <MuiLink />
     </div>
   );
 }
