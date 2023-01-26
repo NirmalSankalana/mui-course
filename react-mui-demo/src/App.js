@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiChips } from "./components/MuiChips.tsx";
+import { MuiTooltip } from "./components/MuiTooltip.tsx";
+// import { MuiChips } from "./components/MuiChips.tsx";
 // import { MuiBadge } from "./components/MuiBadge.tsx";
 // import { MuiList } from "./components/MuiList.tsx";
 // import { MuiAvatar } from "./components/MuiAvatar.tsx";
@@ -26,7 +27,7 @@ import { MuiChips } from "./components/MuiChips.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiChips />
+      <MuiTooltip />
     </div>
   );
 }
