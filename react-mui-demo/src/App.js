@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiBadge } from "./components/MuiBadge.tsx";
+// import { MuiBadge } from "./components/MuiBadge.tsx";
+import { MuiList } from "./components/MuiList.tsx";
 // import { MuiAvatar } from "./components/MuiAvatar.tsx";
 // import { MuiBottomNavigation } from "./components/MuiBottomNavigation.tsx";
 // import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs.tsx";
@@ -24,7 +25,7 @@ import { MuiBadge } from "./components/MuiBadge.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiBadge />
+      <MuiList />
     </div>
   );
 }
