@@ -1,5 +1,6 @@
 import "./App.css";
-import { MuiTable } from "./components/MuiTable.tsx";
+import { MuiAlert } from "./components/MuiAlert.tsx";
+// import { MuiTable } from "./components/MuiTable.tsx";
 // import { MuiTooltip } from "./components/MuiTooltip.tsx";
 // import { MuiChips } from "./components/MuiChips.tsx";
 // import { MuiBadge } from "./components/MuiBadge.tsx";
@@ -28,7 +29,7 @@ import { MuiTable } from "./components/MuiTable.tsx";
 function App() {
   return (
     <div className="App">
-      <MuiTable />
+      <MuiAlert />
     </div>
   );
 }
